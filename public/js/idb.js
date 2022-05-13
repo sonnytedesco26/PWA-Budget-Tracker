@@ -43,7 +43,7 @@ request.onupgradeneeded = function(event) {
     getAll.onsuccess = function() {
       // if there was data in indexedDb store, send it to the api
       if (getAll.result.length > 0) {
-        fetch('/api/transaction', {
+        fetch('/api/transaction/bulk', {
           method: 'POST',
           body: JSON.stringify(getAll.result),
           headers: {
