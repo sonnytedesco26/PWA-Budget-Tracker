@@ -36,3 +36,9 @@ The service-worker.js file works to cache everything manually, and provides func
 The app itself simply has an input box, alongside an Add(+) and Subtract(-) button which will reflect on the overall budget. Below is a graph which reflects the movement of the budget over the timespan of using said app.
 
 # Demo
+Heroku Link: https://sonny-pwa-budget-tracker.herokuapp.com/
+
+Appearance of site:
+![Site](public/images/site.png)
+
+Github: https://github.com/sonnytedesco26/PWA-Budget-Tracker
